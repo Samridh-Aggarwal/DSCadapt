@@ -30,12 +30,14 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font
 /* HEADER */
 header.app-header{border-bottom:1px solid #030D2B;background:#030D2B;position:sticky;top:0;z-index:50;transition:background .3s,border-color .3s}
 .header-inner{padding:18px 0 14px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap} 
-.header-logos{display:flex;align-items:center;gap:16px;background:#fff;border-radius:9px;padding:7px 15px} 
-.header-logos a{display:flex;align-items:center} .header-logos img{display:block;width:auto;height:26px}
-.header-logos{display:flex;align-items:center;gap:16px;background:#fff;border-radius:9px;padding:7px 15px}
+.header-logos{display:flex;align-items:center;gap:20px} 
+.header-logos a{display:flex;align-items:center} .header-logos img{display:block;width:auto;height:26px} 
+.header-logos .ida-chip{background:#fff;border-radius:7px;padding:5px 10px} 
+.header-logos .ida-chip img{height:22px}
+.header-logos{display:flex;align-items:center;gap:20px}
 .header-logos a{display:flex;align-items:center}
 .header-logos img{display:block;width:auto;height:26px}
-.header-logos{display:flex;align-items:center;gap:16px;background:#fff;border-radius:9px;padding:7px 15px}
+.header-logos{display:flex;align-items:center;gap:20px}
 .header-logos a{display:flex;align-items:center}
 .header-logos img{display:block;width:auto;height:26px}
 .brand{display:flex;align-items:baseline;gap:12px;cursor:pointer}
