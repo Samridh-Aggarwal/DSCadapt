@@ -51,7 +51,10 @@ nav.main-nav{background:var(--surface);border-bottom:1px solid var(--border);pos
 .nav-inner::-webkit-scrollbar{display:none}
 .nav-item{display:inline-block;padding:11px 16px;font-size:13px;color:var(--text-secondary);text-decoration:none;border-bottom:2px solid transparent;transition:all .15s;font-weight:400;white-space:nowrap;background:none;border-left:none;border-right:none;border-top:none;font-family:var(--sans);cursor:pointer}
 .nav-item:hover{color:var(--text);background:var(--surface-alt)}
-.nav-item.active{color:var(--accent-dark);border-bottom-color:var(--accent);font-weight:500}
+.nav-item.active{color:var(--accent-dark);border-bottom-color:var(--accent);font-weight:600}
+.nav-item.nav-tool:not(.active){color:var(--text);font-weight:600}
+.nav-item.nav-sec{color:var(--text-tertiary)}
+.nav-div{align-self:center;width:1px;height:20px;background:var(--border);margin:0 10px;flex-shrink:0}
 
 /* MAIN */
 main{flex:1;display:flex;flex-direction:column;min-height:0}
