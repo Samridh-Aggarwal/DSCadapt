@@ -53,19 +53,9 @@ function pxRenderFlow(root) {
 
   let h = '<button class="px-reset" onclick="pxReset()">← Back to sectors</button>';
 
-  // Only offer the evidence-base link when a document actually exists. Some
-  // measures are on the diagram but not yet written up.
   const hasDoc = px.measure && DATA.evidence.documents.some((d) => d.id === px.measure);
-  if (hasDoc) {
-    h += `<button class="px-learn" onclick="route('evidence');openDocDetail('${px.measure}')">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round">
-        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-      Learn more in evidence base</button>`;
-  }
 
-  h += '<div class="px-flow"><div class="px-flow-inner" id="px-flow-inner">' +
+  h += '<div class="px-main"><div class="px-flow"><div class="px-flow-inner" id="px-flow-inner">' +
        '<svg class="px-svg" id="px-svg"></svg>';
 
   // Column 1 — the chosen sector
@@ -138,7 +128,16 @@ function pxRenderFlow(root) {
     h += '</div>';
   }
 
-  h += '</div></div>' + pxBreadcrumb(sec, sc) + pxLegend(sc);
+  h += '</div></div><aside class="px-side">';
+  if (hasDoc) {
+   h += `<button class="px-learn" onclick="route('evidence');openDocDetail('${px.measure}')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+      Learn more</button>`;
+  }
+  h += '</aside></div>' + pxBreadcrumb(sec, sc) + pxLegend(sc);
   root.innerHTML = h;
   setTimeout(pxDrawLines, 80);
 }
