@@ -41,7 +41,7 @@
 
 <main>
 
-<!-- ===== SCENARIO TAB ===== -->
+<!-- ----- SCENARIO TAB ----- -->
 <section class="tab-panel active" id="tab-scenario">
   <div id="scenario-landing">
     <div class="container scenario-landing">
@@ -82,25 +82,27 @@
           <button class="entry-card" data-prompt="A German city is lowering the temperature in its district heating network to save energy. What infectious disease risks should we consider, and how strong is the evidence?"><div class="entry-type local">Local implementation</div><div class="entry-title">District heating energy measures</div><div class="entry-desc">What infectious disease risks arise from energy-efficiency retrofits in building infrastructure?</div></button>
         </div>
       </div>
-      <div class="input-section"><div style="max-width:780px;margin:0 auto">
+        <div class="input-section"><div style="max-width:780px;margin:0 auto">
         <div class="composer">
           <textarea id="main-input" rows="1" placeholder="Describe your adaptation scenario, location, and what you&rsquo;d like to understand…"></textarea>
           <button class="composer-send" onclick="submitMainQuery()" aria-label="Send">↑</button>
         </div>
         <div class="composer-hint">Enter to send · Shift + Enter for a new line</div>
       </div></div>
+      <div class="ai-note">Note: DSCAdapt's responses are AI-generated and may contain errors. Please use them as guidance and apply your own judgment; they do not constitute policy advice.<br>Questions or feedback? Contact us at [IDAlert email].</div>
     </div>
   </div>
   <div id="scenario-conversation" class="hidden">
     <div class="container session-layout">
       <div class="session-main">
         <div class="chat-scroll" id="chat-scroll"><div class="chat-area" id="chat-area"></div></div>
-        <div class="followup-input">
+          <div class="followup-input">
           <div class="composer">
             <textarea id="followup-field" rows="1" placeholder="Ask a follow-up, or start a new scenario…"></textarea>
             <button class="composer-send" onclick="submitFollowup()" aria-label="Send">↑</button>
           </div>
           <div class="composer-hint">Enter to send · Shift + Enter for a new line</div>
+          <div class="ai-note">Note: DSCAdapt's responses are AI-generated and may contain errors. Please use them as guidance and apply your own judgment; they do not constitute policy advice.<br>Questions or feedback? Contact us at [IDAlert email].</div>
         </div>
       </div>
       <aside class="session-panel">
@@ -118,7 +120,7 @@
   </div>
 </section>
 
-<!-- ===== DOCUMENT TAB ===== -->
+<!-- ----- DOCUMENT TAB ----- -->
 <section class="tab-panel" id="tab-document">
   <div class="container document-tab">
     <div class="page-header"><h2>Evaluate a policy document</h2><p>Upload or paste an adaptation strategy, project plan, or policy brief. DSCAdapt flags where the evidence base links a measure in it to an infectious-disease risk the document does not appear to address.</p></div>
@@ -128,15 +130,16 @@
     <textarea id="doc-paste" placeholder="Paste your policy or adaptation text here…" style="width:100%;min-height:150px;padding:14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);font-family:inherit;font-size:14px;resize:vertical;box-sizing:border-box"></textarea>
     <div style="text-align:center;margin:16px 0"><button class="btn-primary" id="doc-review-btn">Review document</button></div>
     <div id="doc-result"></div>
+    <div class="ai-note">Note: DSCAdapt's responses are AI-generated and may contain errors. Please use them as guidance and apply your own judgment; they do not constitute policy advice.<br>Questions or feedback? Contact us at [IDAlert email].</div>
   </div>
 </section>
 
-<!-- ===== SESSIONS TAB ===== -->
+<!-- ----- SESSIONS TAB ----- -->
 <section class="tab-panel" id="tab-export">
   <div class="container export-tab"><div class="page-header"><h2>Sessions &amp; export</h2><p>Every scenario analysis session is saved locally. Open a past session or export as PDF.</p></div><div id="session-list-container"></div></div>
 </section>
 
-<!-- ===== EVIDENCE BASE TAB ===== -->
+<!-- ----- EVIDENCE BASE TAB ----- -->
 <section class="tab-panel" id="tab-evidence">
   <div class="container-wide evidence-tab">
     <div class="page-header"><h2>Evidence base</h2><p>A comprehensive analysis of ecological and biological scientific research, climate policies, adaptation practices, and latest health literature and data to construct risk pathways between climate measures and infectious disease outcomes.</p></div>
@@ -146,7 +149,7 @@
   <div class="detail-overlay" id="doc-detail-overlay" onclick="closeDocDetail(event)"><div class="detail-panel" onclick="event.stopPropagation()"><button class="detail-close" onclick="closeDocDetail()">×</button><div id="doc-detail-content"></div></div></div>
 </section>
 
-<!-- ===== PATHWAY EXPLORER TAB ===== -->
+<!-- ----- PATHWAY EXPLORER TAB ----- -->
 <section class="tab-panel" id="tab-pathways">
   <div class="container-wide px-wrap">
     <div class="px-top">
@@ -163,7 +166,7 @@
   </div>
 </section>
 
-<!-- ===== ABOUT TAB ===== -->
+<!-- ----- ABOUT TAB ----- -->
 <section class="tab-panel" id="tab-about">
   <div class="container about-tab">
     <div class="about-section"><div class="eyebrow">§ 01 · Overview</div><h2>Pathways, not <span class="italic">predictions</span>.</h2><p class="lede">DSCAdapt is a retrieval-augmented language tool for European policymakers working on climate adaptation. It reasons in terms of pathways — the ecological and infrastructural mechanisms that link a given measure to disease transmission, exposure, or vulnerability — rather than generating forecasts or recommendations.</p><p>Every claim is tied back to the IDAlert evidence base or current web sources through explicit references. The tool uses conditional language because these are plausible scenarios shaped by local context, not deterministic outcomes. Where evidence is thin or conflicting, the tool says so.</p><div class="two-col"><div><h3>Who it is for</h3><p>Municipal and national climate adaptation officers, public health policy leads, and researchers across the IDAlert consortium.</p></div><div><h3>What it isn't</h3><p>Not medical advice. Not epidemiological surveillance. Not a substitute for local expertise. An evidence-synthesis tool meant to sit alongside those sources.</p></div></div></div>
@@ -175,8 +178,7 @@
 
 </main>
 
-<footer class="app-footer"><div class="container-wide footer-inner"><div class="footer-disclaimer">DSCAdapt is a research instrument in active development. Responses are AI-generated and may contain errors. The tool presents potential outcomes — it does not constitute policy advice.</div><div>IDAlert · Grant No. 101057554<br>© 2026 Grantham Research Institute, LSE</div></div></footer>
-
+<footer class="app-footer"><div class="container-wide footer-inner"><div>IDAlert · Grant No. 101057554<br>© 2026 Grantham Research Institute, LSE</div></div></footer>
 
 
 <div class="dp-overlay" id="disease-profile-overlay" onclick="closeDiseaseProfile(event)">
