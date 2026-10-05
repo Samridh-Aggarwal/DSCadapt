@@ -23,7 +23,7 @@ body.dark{
   --disease:#A78BFA;--disease-light:#2D1B69;--disease-dark:#C4B5FD;
 }
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;height:100vh;height:100dvh;overflow:hidden;display:flex;flex-direction:column;font-size:14px;line-height:1.55;transition:background .3s,color .3s}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;font-size:14px;line-height:1.55;transition:background .3s,color .3s}
 .container{max-width:960px;margin:0 auto;padding:0 24px;width:100%}
 .container-wide{max-width:1200px;margin:0 auto;padding:0 24px;width:100%}
 
