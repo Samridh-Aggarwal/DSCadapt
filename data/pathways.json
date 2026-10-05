@@ -1,101 +1,100 @@
-{
- "sectors": [
+"sectors": [
   {
    "id": "water",
    "name": "Water management",
    "L": {
-    "bg": "#E8F0F7",
-    "bd": "#3E7AA5",
-    "tx": "#133A5C"
+    "bg": "#E7F0F7",
+    "bd": "#4A86B3",
+    "tx": "#123A5C"
    },
    "D": {
-    "bg": "#14232F",
-    "bd": "#4A90C2",
-    "tx": "#8FBDDE"
+    "bg": "#13222E",
+    "bd": "#5B9BC9",
+    "tx": "#9BC6E4"
    }
   },
   {
    "id": "coastal",
    "name": "Coastal & marine",
    "L": {
-    "bg": "#E4F2EF",
-    "bd": "#2D8C82",
+    "bg": "#E2F1EF",
+    "bd": "#3F9AA0",
     "tx": "#0F3E3A"
    },
    "D": {
-    "bg": "#132623",
-    "bd": "#3FAE9F",
-    "tx": "#7ECEC0"
+    "bg": "#122524",
+    "bd": "#55B4B0",
+    "tx": "#88CFC9"
    }
   },
   {
    "id": "food",
    "name": "Agriculture & food",
    "L": {
-    "bg": "#EDF4E5",
-    "bd": "#5A9340",
-    "tx": "#1F4A12"
+    "bg": "#ECF4E3",
+    "bd": "#6FA04F",
+    "tx": "#244A16"
    },
    "D": {
-    "bg": "#1C2818",
-    "bd": "#6FBE52",
-    "tx": "#9FCF82"
+    "bg": "#1B2817",
+    "bd": "#86C267",
+    "tx": "#AED492"
    }
   },
   {
    "id": "buildings",
    "name": "Buildings & urban",
    "L": {
-    "bg": "#FBF1E1",
-    "bd": "#B87D23",
-    "tx": "#6B400A"
+    "bg": "#E8EBF3",
+    "bd": "#27477A",
+    "tx": "#16233F"
    },
    "D": {
-    "bg": "#2B2316",
-    "bd": "#D4A050",
-    "tx": "#E0BC78"
+    "bg": "#161C28",
+    "bd": "#5A77AE",
+    "tx": "#9FB4D6"
    }
   },
   {
    "id": "tourism",
    "name": "Tourism",
    "L": {
-    "bg": "#F8E7EE",
-    "bd": "#A8427A",
-    "tx": "#66153F"
+    "bg": "#FBE8E4",
+    "bd": "#D0675D",
+    "tx": "#6B1F18"
    },
    "D": {
-    "bg": "#261620",
-    "bd": "#C86098",
-    "tx": "#D890B0"
+    "bg": "#2A1A17",
+    "bd": "#E58379",
+    "tx": "#EDA79E"
    }
   },
   {
    "id": "transport",
    "name": "Transport",
    "L": {
-    "bg": "#EEE9F6",
-    "bd": "#6F52B0",
-    "tx": "#33175F"
+    "bg": "#EBEDF7",
+    "bd": "#6475B3",
+    "tx": "#2A3566"
    },
    "D": {
-    "bg": "#1E1828",
-    "bd": "#9078C8",
-    "tx": "#B8A4D8"
+    "bg": "#1A1D2B",
+    "bd": "#8593CC",
+    "tx": "#B2BCE0"
    }
   },
   {
    "id": "energy",
    "name": "Energy",
    "L": {
-    "bg": "#F7EAEA",
-    "bd": "#B64747",
-    "tx": "#6B1818"
+    "bg": "#F3E7F5",
+    "bd": "#9A57B0",
+    "tx": "#5F2470"
    },
    "D": {
-    "bg": "#2A1818",
-    "bd": "#E06868",
-    "tx": "#E89898"
+    "bg": "#241526",
+    "bd": "#BC7ACE",
+    "tx": "#D6A8E0"
    }
   }
  ],
