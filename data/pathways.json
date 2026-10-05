@@ -1,4 +1,5 @@
-"sectors": [
+{ 
+  "sectors": [
   {
    "id": "water",
    "name": "Water management",
