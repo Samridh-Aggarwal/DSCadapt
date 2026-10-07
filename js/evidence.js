@@ -38,6 +38,7 @@ function renderEvidence() {
 
   let h = '';
   for (const fam of DATA.evidence.families) {
+    if (fam.family === 'case') continue;
     const docs = matched.filter((d) => d.family === fam.family);
     if (!docs.length) continue;
     h += `<div class="pathway-group"><h3>${fam.name}
