@@ -200,7 +200,36 @@ function startSession(q) {
   renderSidePanel();
   document.getElementById('chat-area').innerHTML = '';
   save();
+  fetchTitle(q, S.activeSession.id, S.activeSession.settings.language);
   sendMessage(q);
+}
+
+// Ask the backend for a short session title in the background. The first
+// question is already showing as an 80-character placeholder; this upgrades it
+// when it arrives and quietly leaves the placeholder if the call fails. Matched
+// by id because by the time it returns the session may have moved into the
+// saved list, or been deleted.
+async function fetchTitle(question, id, language) {
+  try {
+    const res = await fetch(API_URL + '/title', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, language }),
+    });
+    if (!res.ok) return;
+    const { title } = await res.json();
+    const clean = (title || '').trim();
+    if (!clean) return;
+    const target = (S.activeSession && S.activeSession.id === id)
+      ? S.activeSession
+      : S.sessions.find((s) => s.id === id);
+    if (!target) return;
+    target.title = clean;
+    save();
+    if (S.activeTab === 'export') renderSessions();
+  } catch (e) {
+    /* cosmetic — keep the placeholder */
+  }
 }
 
 function restoreSession() {
