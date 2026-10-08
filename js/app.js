@@ -211,8 +211,6 @@ window.addEventListener('hashchange', () => {
 
 /* ------------------------------------------------------- setup controls --- */
 
-// Keep these in sync with LENGTH_CEILINGS in the backend's prompts.py: each is "up to" the ceiling.
-const LENGTH_HINT = { Brief: 'up to ~160 words', Standard: 'up to ~400 words', Detailed: 'up to ~800 words' };
 function wireSetup() {
   const toggle = document.querySelectorAll('#audience-toggle span');
   toggle.forEach((el) => {
@@ -231,20 +229,12 @@ function wireSetup() {
 
   country.addEventListener('change', () => { S.settings.country = country.value; save(); });
   language.addEventListener('change', () => { S.settings.language = language.value; save(); });
-  length.addEventListener('change', () => {
-    S.settings.length = length.value;
-    document.getElementById('length-meta').textContent =
-      `Response length: ${length.value.toLowerCase()} (${LENGTH_HINT[length.value]})`;
-    save();
-  });
+  length.addEventListener('change', () => { S.settings.length = length.value; save(); });
 
   country.value = S.settings.country;
   language.value = S.settings.language;
   length.value = S.settings.length;
-  document.getElementById('length-meta').textContent =
-    `Response length: ${S.settings.length.toLowerCase()} (${LENGTH_HINT[S.settings.length]})`;
 }
-
 /* ---------------------------------------------------------------- boot --- */
 
 async function init() {
