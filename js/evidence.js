@@ -97,9 +97,10 @@ function mechanismHtml(m) {
     : `<p class="mech-empty">${NO_DETAIL}</p>`;
   return `<div class="section-item ${cls} has-detail">
     <button class="mech-head" aria-expanded="false" onclick="toggleMech(this)">
-      <span class="mech-head-text">
+        <span class="mech-head-text">
         <span class="section-item-type">${m.t}</span>
-      <strong>${escapeHtml(m.m)}</strong>
+        <strong>${escapeHtml(m.m)}</strong>
+      </span>
       <span class="mech-chevron">${CHEVRON}</span>
     </button>
     <div class="mech-detail"><div class="mech-detail-inner"><div class="mech-body">
