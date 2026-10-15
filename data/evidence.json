@@ -47,19 +47,19 @@
         {
           "m": "Safe/clean water resources",
           "t": "co-benefit",
-          "d": "",
+          "d": "Cholera, Cryptosporidiosis, E. coli",
           "detail": "<p>Maintaining the availability of safe and clean water provides critical public health co-benefits by reducing human exposure to disease. By mitigating the impacts of climate extremes, storage and reuse measures secure the reliable access needed for essential hygiene practices, which is vital for preventing the transmission of waterborne illnesses. A systemic approach to water distribution is most effective in minimising disease risk because it ensures equitable hygiene and prevents underserved populations from becoming hotspots for pathogen exposure. Additionally, water efficiency and reuse measures reduce pressure on freshwater sources and support ecosystem health. Supporting biodiversity and ecological balance increases overall resilience to infectious disease by limiting opportunities for disease emergence.</p>"
         },
         {
           "m": "Safe seafood supply",
           "t": "co-benefit",
-          "d": "",
+          "d": "Vibriosis, Norovirus, Hepatitis A",
           "detail": ""
         },
         {
           "m": "Habitat for disease pathogens & vectors",
           "t": "trade-off",
-          "d": "",
+          "d": "WNV, dengue, malaria, chikungunya",
           "detail": "<p>Water management measures carry significant risks of creating trade-offs for infectious disease transmission, particularly if implemented poorly or without consideration of relevant risk factors. Standing or stagnant water in storage systems provides ideal breeding grounds for mosquitoes, which increases the likelihood of diseases such as malaria, dengue fever, and West Nile virus. Furthermore, stored or reused water can become a habitat for pathogens like cholera, hepatitis A, and dysentery if water quality is not adequately monitored. To reduce these trade-offs, potential efforts to adapt management practices could include several examples:</p><ul><li>Infrastructural Design: Sealing and screening entry points to storage systems and ensuring tanks are impervious to light to minimise algal growth.</li><li>System Maintenance: Upgrading distribution systems with sufficient gradients to prevent stagnant water and ensuring gutters are cleared of debris.</li><li>Community and Household Action: Utilizing household water purification systems and providing public education on safe storage practices.</li></ul>"
         }
       ],
@@ -83,7 +83,7 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "General",
           "detail": "<p>Effective wastewater treatment prevents the release of contaminants—including PFAS, fertilisers, microplastics, and pathogens—into the natural environment. These efforts protect biodiversity by preventing bioaccumulation in the food chain and stopping algal blooms that deplete oxygen in aquatic habitats. Additionally, reducing sewage pollution in freshwater ecosystems lowers the incidence of heavy metal toxicity and helps combat antimicrobial resistance by improving the quality of effluent discharge. Maintaining ecosystem health in this way supports ecological balance and can limit the prevalence of disease vectors.</p>"
         },
         {
@@ -115,7 +115,7 @@
         {
           "m": "Safe/clean water resources",
           "t": "co-benefit",
-          "d": "",
+          "d": "Waterborne diseases",
           "detail": "<p>Active water quality monitoring provides the critical benefit of reducing the risk of infectious disease by decreasing human exposure to pathogens in contaminated water. These efforts support the sustained availability of clean water required for essential hygiene and public health. This is of particular importance during emergencies and extreme weather events that put pressure on the availability of safe resources.</p>"
         },
         {
@@ -167,7 +167,7 @@
         {
           "m": "Reduced exposure to flood water",
           "t": "co-benefit",
-          "d": "",
+          "d": "Leptospirosis, E. coli, Cryptosporidiosis",
           "detail": "<p>Effective forecasting and early warning systems provide critical co-benefits by enabling timely response measures that reduce human exposure to contaminated floodwater. These systems allow for technical actions, such as activating preparedness plans at wastewater treatment plants to prevent sewer overflows, as well as practical actions like community evacuations and the activation of emergency shelters. Minimising contact with floodwater is vital for public health because floodwaters often contain pathogens from surface run-off and sewage, which raise the risk of waterborne disease outbreaks. Additionally, by reducing the prevalence of standing or stagnant water, these systems help limit the formation of breeding habitats for mosquitoes, thereby lowering the risk of vector-borne diseases like malaria and West Nile virus. Furthermore, these systems enable targeted communication of precautionary measures, such as instructions for ensuring safe drinking water after a flood.</p>"
         }
       ],
@@ -187,7 +187,7 @@
         {
           "m": "Reduced exposure to flood water",
           "t": "co-benefit",
-          "d": "",
+          "d": "Leptospirosis, E. coli, Giardia",
           "detail": "<p>Flood protection measures provide a critical co-benefit by lessening the risk of exposure to contaminated floodwater. Because floodwaters often contain pathogens from sewer overflows and animal waste, these measures directly limit the transmission of waterborne illnesses. Additionally, by preventing the accumulation of stagnant water, protection strategies reduce the creation of breeding grounds for mosquitoes, which lowers the risk of vector-borne diseases such as malaria and West Nile virus. Public communication campaigns further support prevention by promoting early protective behaviours and raising awareness of post-flood health risks.</p>"
         },
         {
@@ -211,13 +211,13 @@
         {
           "m": "Habitat for disease pathogens & vectors",
           "t": "trade-off",
-          "d": "",
+          "d": "WNV, dengue, Culex mosquitoes",
           "detail": "<p>If implemented poorly, certain flood protection measures carry significant risks of ecological disruption. Traditional grey infrastructure can interfere with hydrological cycles, leading to habitat degradation and a loss of biodiversity that weakens natural resilience to pathogens. Even nature-based solutions could potentially disrupt existing ecosystem services if they are not designed with long-term ecological balance in mind. To mitigate these risks, potential management efforts could focus on integrating restorative approaches that maintain river connectivity and habitat diversity.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various",
           "detail": "<p>Various protection strategies carry the trade-off of potentially creating habitats for disease vectors. Stagnant water may accumulate behind physical barriers or within restored wetlands, providing ideal conditions for mosquito proliferation. Potential mitigation efforts could include designing infrastructure to ensure sufficient water movement or monitoring restored sites to manage vector populations.</p>"
         },
         {
@@ -249,7 +249,7 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Vibriosis, Norovirus",
           "detail": ""
         },
         {
@@ -307,7 +307,7 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Zoonotic diseases",
           "detail": "<p>By creating farmlands that more closely mimic natural ecosystems, sustainable strategies enhance biodiversity and ecological resilience. Healthier ecosystems can reduce the hazards posed by infectious diseases by fulfilling important functions like natural pest regulation. Examples of this include agroforestry, which integrates perennial trees, and the use of riparian strips or cover crops to provide micro-habitats for diverse organisms. Regenerative agriculture and organic farming also contribute to this benefit by avoiding pesticides that harm non-target organisms and reducing the prevalence of monocultural farming.</p>"
         },
         {
@@ -331,7 +331,7 @@
         {
           "m": "Habitat for disease pathogens & vectors",
           "t": "trade-off",
-          "d": "",
+          "d": "Hantavirus, Leptospirosis",
           "detail": "<p>Sustainable farming strategies carry significant risks of creating trade-offs for infectious disease transmission, particularly if implemented without consideration of relevant risk factors. Strategies that enhance biodiversity and mimic natural environments, such as agroforestry or cover crops, may inadvertently provide ideal conditions for ticks and other invertebrate vectors. Riparian buffers located near waterways can also support mosquito breeding grounds. Increased biodiversity may attract bats or rodents, which can serve as hosts for fleas or direct vectors for zoonotic diseases. These habitats pose a particular concern because they are fully integrated within active farmland, increasing the potential for zoonotic transmission through frequent interactions between humans and vectors. To address these risks, potential management efforts could focus on responsible and targeted implementation, alongside continued research and monitoring of vector populations.</p>"
         }
       ],
@@ -351,13 +351,13 @@
         {
           "m": "Safe/clean water resources",
           "t": "co-benefit",
-          "d": "",
+          "d": "E. coli, Cryptosporidiosis",
           "detail": "<p>Efficient irrigation systems provide the critical co-benefit of protecting freshwater resources from agricultural contamination. By minimising over-irrigation and increasing soil absorption, these techniques reduce the runoff of fertilisers and other chemical inputs into surrounding water bodies. This supports the continuous availability of safe, potable water, which is essential for the hygiene practices required to limit the transmission of infectious diseases. Furthermore, integrated systems that combine irrigation with wetland management can significantly lower nitrogen and phosphorus concentrations in drainage water, mitigating health risks associated with nutrient pollution in drinking water.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various",
           "detail": "<p>Irrigation systems carry significant risks of ecological disruption if they are implemented poorly or consume unsustainable volumes of water. The runoff of salt, pesticides, and fertilisers can lead to surface water salinisation and eutrophication, which weakens the immune systems of aquatic species and causes major habitat loss. Linear infrastructure like pipelines can fragment local habitats, while the wear of plastic tubing introduces microplastics that disrupt soil microbial communities and may spread pathogens. These forms of environmental degradation weaken biodiversity, which acts as a natural check on pathogen spread, thereby increasing the risk of infectious disease emergence. To reduce these trade-offs, potential management efforts could focus on prioritizing precision irrigation, controlling agrochemical use, and conducting regular biomonitoring for water quality.</p>"
         }
       ],
@@ -377,7 +377,7 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Vector-borne (dilution effect)",
           "detail": "<p>Protecting and restoring biodiversity supports infectious disease resilience by contributing to the overall health and stability of ecosystems. Biodiverse environments are more resistant to disease emergence due to the dilution effect, where a greater variety of hosts reduces the likelihood of successful pathogen transmission to humans. Conversely, degraded ecosystems with weakened diversity are at a heightened risk of creating new opportunities for zoonotic disease emergence. Enhancing connectivity through ecological corridors strengthens this benefit by providing refuge and mobility for diverse species. Additionally, specific nature-based solutions like constructed wetlands help mitigate antimicrobial resistance by limiting the dispersal of antibiotic-resistant bacteria in water systems.</p>"
         },
         {
@@ -395,13 +395,13 @@
         {
           "m": "Increased human presence in natural areas",
           "t": "trade-off",
-          "d": "",
+          "d": "Lyme, TBE, hantavirus",
           "detail": "<p>Conservation and restoration projects can lead to increased human activity in areas that naturally harbor higher concentrations of wildlife and disease vectors. Natural environments serve as habitats for vertebrates, invertebrates, and birds that transmit diseases such as West Nile virus, Lyme disease, and tick-borne encephalitis. Where restoration measures encourage higher pathogen loads—for instance, by attracting migratory birds or small mammals—the opportunities for zoonotic transmission are likely to rise. To mitigate this trade-off, potential strategies could include implementing disease monitoring systems and displaying clear health warnings or educational materials to ensure visitors take appropriate precautions.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various",
           "detail": "<p>If implemented poorly or without consideration of disease dynamics, biodiversity protection and restoration efforts carry significant risks of ecological disruption. Interventions that are myopically designed or inadequately monitored can alter natural processes and species composition in ways that inadvertently favor the abundance of certain pathogens or vectors. This risk is particularly high when projects target single species in isolation or are halted before completion, leaving ecosystems in a suboptimal state. To reduce these trade-offs, potential management efforts could focus on integrating disease control measures and accounting for scale-dependent impacts on disease ecology during the planning phase.</p>"
         },
         {
@@ -427,13 +427,13 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Dilution effects",
           "detail": "<p>Expanding forested and natural areas supports infectious disease resilience by contributing to biodiversity and ecosystem stability. Biodiverse environments are more resistant to disease emergence due to the dilution effect, where a variety of hosts reduces the likelihood of successful pathogen transmission to humans. Conversely, the loss of biodiversity following deforestation is strongly associated with increased infectious disease outcomes, such as when forest fragmentation allows competent hosts for Lyme-disease-carrying ticks to dominate. Additionally, nature-based solutions like constructed wetlands help mitigate antimicrobial resistance by limiting the dispersal of antibiotic-resistant bacteria in riverine systems.</p>"
         },
         {
           "m": "Safe/clean water resources",
           "t": "co-benefit",
-          "d": "",
+          "d": "Waterborne pathogen filtration",
           "detail": "<p>Thriving ecosystems play a vital role in the water cycle by storing, filtering, and purifying water, which mitigates the risk of contamination from storm runoff and sewage overflow during floods. Healthy forests and riparian buffers absorb harmful compounds like ammonia and nitrates, directly improving water quality. By safeguarding these clean water resources, forest expansion supports the essential hygiene practices required to limit disease transmission and prevents outbreaks of waterborne illnesses. Areas with high vegetation diversity also promote microbial communities that help break down pathogens such as E. coli.</p>"
         },
         {
@@ -451,7 +451,7 @@
         {
           "m": "Increased human presence in natural areas",
           "t": "trade-off",
-          "d": "",
+          "d": "Lyme, TBE, hantavirus",
           "detail": "<p>Increased human activity in natural areas can disturb wildlife and heighten interactions that facilitate zoonotic disease transmission. Natural environments often harbor higher densities of disease vectors like mosquitoes and ticks, as well as hosts like migratory birds that carry high pathogen loads. Consequently, expanding these areas may rise the overall exposure of populations to infectious pathogens. To mitigate this trade-off, potential strategies could involve implementing disease monitoring measures and displaying clear health warnings at natural sites to ensure visitors take appropriate precautions.</p>"
         },
         {
@@ -463,7 +463,7 @@
         {
           "m": "Land use conflict",
           "t": "trade-off",
-          "d": "",
+          "d": "Indirect vulnerability",
           "detail": "<p>Forest expansion can generate social and economic tensions when it competes with alternative land uses like agriculture or urban housing. Land-use conflicts can fuel social unrest, and associated crowding at public protests can facilitate the rapid spread of respiratory and gastrointestinal infections. Furthermore, the loss of livelihoods associated with land-use restrictions can increase community vulnerability to disease through economic hardship. Potential efforts to mitigate these trade-offs could include using participatory strategies that integrate local stakeholders and utilizing carbon farming schemes to balance conservation with crop production.</p>"
         }
       ],
@@ -483,7 +483,7 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Zoonotic disease reduction",
           "detail": "<p>Reducing animal agriculture lessens the pressure on natural habitats by decreasing the need for grazing land and feedstock production, which are the main drivers of global habitat loss. Preserving intact ecosystems supports landscape immunity and maintains the dilution effect, where a greater variety of species reduces the likelihood of pathogens successfully reaching humans. Conversely, land use change and encroachment into wildlife habitats create new interfaces for zoonotic spillover. Additionally, shifting toward plant-based diets protects biogeochemical cycles by reducing the surplus nitrogen and phosphorus runoff that causes soil acidification and harmful algal blooms. These protections preserve biodiversity and ecological resilience, which act as natural buffers against the emergence of infectious diseases.</p>"
         },
         {
@@ -561,13 +561,13 @@
         {
           "m": "Reduced exposure to flood water",
           "t": "co-benefit",
-          "d": "",
+          "d": "Leptospirosis, waterborne",
           "detail": "<p>Green and blue infrastructure effectively reduces flood risk by enhancing natural processes of water retention and infiltration. By storing and slowing surface runoff, these measures decrease the volume of water entering sewer systems, which prevents overflows and reduces human exposure to contaminated floodwater. This offers a critical co-benefit for public health, as floodwaters often contain pathogens from sewage and agricultural runoff that cause waterborne disease outbreaks. Additionally, by mitigating flooding and preventing stagnant water from lingering, these interventions limit the formation of breeding grounds for mosquitoes, thereby reducing the risk of vector-borne diseases such as West Nile virus and malaria.</p>"
         },
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "General",
           "detail": "<p>Expanding green and blue spaces through a nature-based solutions approach enhances biodiversity and ecological stability. Healthy, biodiverse ecosystems are more resistant to disease emergence due to the dilution effect, where a variety of host species reduces the likelihood of pathogens reaching humans. Specific interventions such as constructed wetlands also help mitigate antimicrobial resistance by limiting the dispersal of antibiotic-resistant bacteria in water systems. Additionally, creating ecological corridors for wildlife strengthens landscape immunity and protects ecosystems from the damaging effects of extreme weather events.</p>"
         },
         {
@@ -579,13 +579,13 @@
         {
           "m": "Heat management",
           "t": "co-benefit",
-          "d": "",
+          "d": "Legionella, Vibrio, Salmonella",
           "detail": "<p>Green and blue spaces provide localised cooling effects through shading and evapotranspiration, helping to mitigate the urban heat island effect. These cooling effects directly reduce the incidence of heat-related illnesses such as heatstroke and dehydration, which otherwise render individuals more susceptible to infections. By lowering temperatures, these spaces may also limit the environmental conditions that facilitate the expansion of vector-borne diseases, particularly as many mosquito species thrive in warmer conditions. Furthermore, cooling urban environments can indirectly support food safety by reducing the risk of power outages that disrupt refrigeration systems during extreme heatwaves.</p>"
         },
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory pathogens",
           "detail": "<p>Vegetation improves air quality by filtering pollutants, absorbing greenhouse gases, and reducing the formation of ground-level ozone. Blue spaces also help by diluting and dispersing airborne contaminants. These improvements in air quality alleviate respiratory and cardiovascular stress, which are known biological risk factors for vulnerability to infectious diseases. Cleaner air can also lower the transmission rates of respiratory infections by reducing the concentration of airborne particulates that act as pathogen carriers and by improving the overall immune response of the population.</p>"
         },
         {
@@ -597,13 +597,13 @@
         {
           "m": "Habitat for disease pathogens & vectors",
           "t": "trade-off",
-          "d": "",
+          "d": "WNV, dengue, chikungunya, Lyme, TBE",
           "detail": "<p>Expanding green and blue spaces carries the trade-off of potentially creating habitats for disease vectors and pathogens. Rich urban soils and diverse vegetation can support populations of ticks, flies, and other invertebrates that host pathogens harmful to humans, such as those causing Lyme disease or fungal infections. Poorly maintained features, such as blocked drainage on green roofs or stagnant ornamental fountains, can create ideal breeding conditions for mosquitoes. Furthermore, cooling from vegetation can increase local humidity, which may extend the lifespan of mosquitoes or favour pathogens such as Legionella. Increased contact with wildlife, such as migratory birds, also rises the risk of zoonotic transmission.</p>"
         },
         {
           "m": "Allergies & respiratory issues",
           "t": "trade-off",
-          "d": "",
+          "d": "Non-infectious (excluded from scope)",
           "detail": "<p>While green spaces can improve air quality, they may also increase the presence of pollen and other aeroallergens, exacerbating asthma and allergic diseases. Such conditions can impair the mucosal immune system and increase susceptibility to respiratory viral infections. Additionally, mists from water features such as fountains can transmit Legionella bacteria if the water is warm and stagnant. Stagnant waterbodies also risk the proliferation of harmful algal blooms, which release toxins that can be inhaled or ingested. Potential management efforts could focus on careful species selection and regular water quality maintenance to mitigate these respiratory risks.</p>"
         }
       ],
@@ -623,19 +623,19 @@
         {
           "m": "Safe/clean water resources",
           "t": "co-benefit",
-          "d": "",
+          "d": "Legionella",
           "detail": "<p>Climate-resilient building standards focus on water conservation and contamination prevention, which reduces the risk of waterborne infectious diseases. Maintaining access to safe, potable water is vital for the hygiene practices required to reduce disease transmission, while keeping water supplies uncontaminated is critical for preventing outbreaks. Standards may promote water efficiency through smart technologies, such as real-time flow monitoring and low-flow taps, or the use of harvested rainwater for internal greywater purposes. Additionally, automated plumbing systems that prevent water stagnation can minimise the scale and biofilm growth associated with pathogens like Legionella. Integrating green infrastructure also helps preserve water quality by slowing stormwater runoff and preventing the overload of water systems during extreme weather events.</p>"
         },
         {
           "m": "Heat management",
           "t": "co-benefit",
-          "d": "",
+          "d": "Legionella",
           "detail": "<p>Effective heat management through building regulations reduces vulnerability to infectious diseases by preventing heat-related illnesses that impair the immune system. Passive design principles, such as optimal building orientation and high thermal resistance materials, improve thermal comfort without increasing energy demand. Surface treatments like cool roofs and white external walls further reduce heat absorption, while smart digital control systems enable real-time thermal regulation to prevent heat distress. Managing indoor heat is vital for alleviating the impacts of extreme temperatures on chronic conditions, which otherwise render individuals more susceptible to infections. By promoting thermal comfort, these standards also preserve healthcare system capacity during outbreaks by reducing the number of patients treated for preventable, heat-aggravated issues.</p>"
         },
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory pathogens, Legionella",
           "detail": "<p>Building standards and improved ventilation systems offer the co-benefit of enhancing both indoor and outdoor air quality, which directly reduces infectious disease risk. Mechanical ventilation in energy-efficient buildings effectively removes chemical pollutants, biological contaminants, and moisture that promotes mould growth, thereby protecting occupants from respiratory illnesses that weaken immune resilience. Modern HVAC systems can also be programmed to adjust ventilation based on pollutant concentrations and must undergo regular inspections to limit the build-up of infectious agents. Furthermore, stringent efficiency requirements reduce the energy consumed for heating and cooling, which cuts urban pollutant emissions at the source. Cleaner air lowers the transmission rates of respiratory infections by decreasing the concentration of airborne particulates that act as pathogen carriers and by improving the population's overall respiratory health.</p>"
         }
       ],
@@ -655,19 +655,19 @@
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory pathogens",
           "detail": "<p>Retrofitting measures designed with health parameters in mind provide a co-benefit by improving air quality and reducing infectious disease risk. Mechanical ventilation systems in airtight buildings can filter incoming air and regulate exchange rates based on occupancy and pollutant levels. These systems lower concentrations of biological contaminants, such as mould spores, and chemical pollutants compared to conventional ventilation. Improved air quality alleviates respiratory and cardiovascular stress, which are known risk factors for infectious disease vulnerability. Furthermore, cleaner air reduces the concentration of airborne particulates that can act as carriers for pathogens.</p>"
         },
         {
           "m": "Allergies & respiratory issues",
           "t": "trade-off",
-          "d": "",
+          "d": "Non-infectious",
           "detail": "<p>Retrofitting measures can lead to trade-offs if high airtightness is achieved without adequate ventilation, causing indoor air stagnation. This condition allows for the accumulation of internally generated pollutants and pathogens, which can exacerbate asthma and allergic conditions. Chronic respiratory inflammation can impair the mucosal immune system, thereby increasing susceptibility to viral and bacterial infections. Potential management efforts could focus on integrating mechanical ventilation and monitoring indoor humidity to prevent the damp conditions that facilitate mould growth.</p>"
         },
         {
           "m": "Overheating",
           "t": "trade-off",
-          "d": "",
+          "d": "Legionella, Salmonella",
           "detail": "<p>Enhanced thermal insulation can inadvertently contribute to indoor overheating by trapping heat within the building envelope. Sustained exposure to high temperatures can increase physiological inflammation and place added strain on the cardiovascular system, weakening overall immune function. This increased vulnerability reduces public health resilience during disease outbreaks. Potential strategies for addressing this risk could include incorporating passive cooling techniques and utilising future climate modelling to inform retrofit designs.</p>"
         }
       ],
@@ -693,13 +693,13 @@
         {
           "m": "Improved economic stability & reduced short-term migration",
           "t": "co-benefit",
-          "d": "",
+          "d": "Indirect",
           "detail": "<p>Redistributing flows generates consistent income and reduces reliance on short-term labour migration, which improves economic stability for local communities. This stability reduces human vulnerability to disease by addressing socioeconomic inequalities and ensuring continuous funding for health infrastructure. Furthermore, limiting short-term migration lowers the risk of pathogens being circulated between regions by workers or travellers.</p>"
         },
         {
           "m": "Reduced overcrowding",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory, gastrointestinal",
           "detail": "<p>Spreading visitor flows more evenly throughout the year decreases density at tourist hotspots, which lowers the probability of spreading infectious diseases transmitted through close proximity. Greater physical spacing reduces opportunities for individuals to interact in ways that facilitate transmission, such as coughing or sneezing in crowded settings.</p>"
         },
         {
@@ -711,13 +711,13 @@
         {
           "m": "Shift in disease patterns",
           "t": "trade-off",
-          "d": "",
+          "d": "Vector-borne, gastrointestinal",
           "detail": "<p>Extending the tourism season may prolong the period during which both visitors and local populations are exposed to infectious diseases. Continuous human mobility over a longer timeframe facilitates more frequent opportunities for pathogen transmission and may increase the reach of outbreaks.</p>"
         },
         {
           "m": "Difficulty in detecting diseases in returning travelers",
           "t": "trade-off",
-          "d": "",
+          "d": "Dengue, chikungunya, malaria",
           "detail": "<p>Increased numbers of returning travellers can lead to higher incidences of imported diseases that may be difficult for local healthcare providers to diagnose. Diagnostic delays can occur if symptoms overlap with common infections like the flu or if providers in non-endemic regions are unfamiliar with climate-sensitive diseases emerging in new areas.</p>"
         },
         {
@@ -749,25 +749,25 @@
         {
           "m": "Reduced overcrowding",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory",
           "detail": "<p>Redistributing visitor numbers more evenly across a region alleviates overcrowding in traditionally popular hotspots. This reduction in density lowers the risk of infectious disease transmission, as individuals are less frequently in the close proximity required for pathogens to spread through speaking, coughing, or sneezing. Greater physical spacing reduces the opportunities for transmission compared to densely populated settings like restaurants and tourist hotspots.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various",
           "detail": "<p>Expanding tourism into previously undisturbed natural areas can cause ecological disruption through physical damage, wildlife disturbance, and increased pollution. This degradation weakens the natural checks and biodiversity that buffer against the spread of pathogens, which can inadvertently increase vulnerability to disease outbreaks. Furthermore, inexperienced tourists may cause catastrophic events such as human-induced wildfires that further compromise ecosystem health.</p>"
         },
         {
           "m": "Shift in disease patterns",
           "t": "trade-off",
-          "d": "",
+          "d": "Vector-borne",
           "detail": "<p>Increasing the mobility of travellers to new regions can elevate the frequency and reach of infectious disease outbreaks by facilitating continuous human movement. This expansion may introduce pathogens to resident populations who lack prior exposure or immunity, thereby increasing local vulnerability to infection and reshaping regional disease patterns.</p>"
         },
         {
           "m": "Limited capacity of healthcare system",
           "t": "trade-off",
-          "d": "",
+          "d": "All categories",
           "detail": "<p>Local healthcare systems in new destinations may lack the capacity, budget, or linguistic tools to manage sudden surges in patient volume, particularly those with foreign diseases. Without sustained funding to expand capacity year-round, these services risk becoming overwhelmed during peak seasons. This strain on medical facilities undermines public health security for both travellers and residents.</p>"
         },
         {
@@ -799,19 +799,19 @@
         {
           "m": "Healthy ecosystems",
           "t": "co-benefit",
-          "d": "",
+          "d": "Various",
           "detail": "<p>Tourism-related investments that focus on the restoration, clean-up, or rewilding of natural areas support the development of healthy ecosystems. Utilising nature-based solutions helps preserve biodiversity and ecological balance, which are essential for maintaining landscape immunity against disease emergence. Degraded ecosystems with weakened species diversity are at a higher risk of creating opportunities for zoonotic disease spillover. Consequently, targeting investments at neglected or degraded areas can limit the presence of disease vectors and shield these environments from more destructive economic uses, such as intensive agriculture or mining.</p>"
         },
         {
           "m": "Reduced pressure on health services",
           "t": "co-benefit",
-          "d": "",
+          "d": "All categories",
           "detail": "<p>Directing infrastructure improvements toward the health sector provides a significant co-benefit by easing the pressure on local services and strengthening resilience to infectious diseases. Investments such as boosting hospital funding, establishing small health units in emerging destinations, and providing translation services improve the general accessibility of timely care for both tourists and residents. Furthermore, awareness-raising measures that educate travellers on navigating climate conditions help prevent avoidable illnesses, thereby reducing the overall demand on local health systems. Maintaining a well-funded and prepared healthcare system is critical for protecting host communities and ensuring a robust response to infectious disease risks.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various",
           "detail": "<p>Infrastructure development and increased visitor numbers can lead to the disruption of surrounding ecosystems, particularly in previously undisturbed or ecologically rich areas. Direct impacts such as trampling, wildlife disturbance, and littering, alongside broader pressures like increased water pollution and loss of forest cover, diminish ecosystem resilience. Even ecotourism carries risks if it involves the consumption of virgin territories and deforestation. This degradation weakens the natural checks provided by biodiversity, inadvertently heightening vulnerability to infectious disease outbreaks and increasing the risk of catastrophic events like human-induced wildfires.</p>"
         },
         {
@@ -837,13 +837,13 @@
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory pathogens",
           "detail": "<p>Expanding public transport alleviates traffic congestion and significantly improves air quality, particularly in urban areas where 97% of the population is exposed to fine particulate matter levels above safety guidelines. The transport sector is Europe's largest source of nitrogen oxides and a major contributor to particulate matter. By shifting travel from private cars to transit modes, cities can lower total vehicle kilometres travelled and reduce emissions. These improvements in air quality alleviate respiratory illnesses and impaired lung function, which are known factors that increase individual susceptibility to infectious diseases.</p>"
         },
         {
           "m": "Increased contact rates & overcrowding",
           "t": "trade-off",
-          "d": "",
+          "d": "Respiratory pathogens, gastrointestinal",
           "detail": "<p>Increased reliance on public transport carries the trade-off of higher contact rates between individuals, which can facilitate the transmission of airborne infectious diseases. Enclosed and crowded spaces have been linked to the spread of influenza-like illnesses and coronaviruses, with risk levels influenced by factors such as ventilation quality, hygiene practices, and the length of the journey. While adequate ventilation can control moderately contagious diseases, it may be insufficient for highly infectious pathogens. To mitigate these risks, potential management strategies could focus on enhancing ventilation systems and promoting the use of face masks, which significantly reduce transmission rates in transit environments.</p>"
         }
       ],
@@ -863,7 +863,7 @@
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory pathogens",
           "detail": "<p>A shift to electromobility helps reduce air pollution, particularly nitrogen oxides and particulate matter, for which the transport sector is a major source. In European urban areas, 97% of the population is exposed to particulate concentrations exceeding safety guidelines. Lowering these emissions improves air quality, which alleviates respiratory illnesses and impaired lung function that otherwise increase individual susceptibility to infectious diseases. However, it should be noted that non-tailpipe emissions from tyres and brakes still contribute to particulate matter levels.</p>"
         }
       ],
@@ -883,13 +883,13 @@
         {
           "m": "Improved indoor & outdoor air quality",
           "t": "co-benefit",
-          "d": "",
+          "d": "Respiratory",
           "detail": "<p>Shifting travel away from motorised vehicles significantly improves air quality, particularly in urban areas where the vast majority of the population is exposed to harmful particulate matter (PM) concentrations. The transport sector is a primary source of nitrogen oxides (NOx) and fine particulates in Europe. Reducing these pollutants lowers the incidence of respiratory illnesses and impaired lung function, both of which are biological factors that increase susceptibility to infectious diseases. Although active commuters may experience higher ventilation rates and occasional increased exposure to pollutants while cycling, the long-term health benefits of increased physical activity far outweigh these risks.</p>"
         },
         {
           "m": "Enhanced mental health & physical activity",
           "t": "co-benefit",
-          "d": "",
+          "d": "General vulnerability reduction",
           "detail": "<p>Promoting active mobility strengthens public health by increasing physical activity and improving mental well-being, which collectively reduce human vulnerability to infectious diseases. Regular physical activity is associated with lower risks of cardiovascular disease, diabetes, and depression. From an immunological perspective, increased activity levels strengthen immune function, thereby reducing the likelihood of severe outcomes when infections occur. Consequently, transport policies that encourage walking and cycling function as effective public health interventions.</p>"
         }
       ],
@@ -909,13 +909,13 @@
         {
           "m": "Habitat for disease pathogens & vectors",
           "t": "trade-off",
-          "d": "",
+          "d": "WNV, malaria, Schistosomiasis",
           "detail": "<p>The creation of dam reservoirs, particularly for storage and pumped storage hydropower plants, carries the trade-off of expanding habitats for disease-carrying vectors. These reservoirs often create large areas of stagnant or slow-moving water that provide ideal larval habitats for mosquitoes, supporting larger and more stable populations. This increase in vector abundance can alter the transmission dynamics of infectious diseases such as West Nile virus, dengue, malaria, and chikungunya. To reduce these risks, potential management efforts could focus on minimising environmental consequences through the careful monitoring of vector populations.</p>"
         },
         {
           "m": "Ecological disruption",
           "t": "trade-off",
-          "d": "",
+          "d": "Various waterborne",
           "detail": "<p>Hydropower developments can cause significant ecological disruption by altering natural hydrological regimes and fragmenting freshwater habitats. Dams act as physical barriers to fish migration and slow river flow, which leads to oxygen depletion, changes in sedimentation, and increased water consumption through evaporation. Furthermore, these alterations can reduce populations of species that act as natural biological control agents, such as fish, dragonflies, and aquatic bugs that prey on mosquito larvae. The resulting loss of species richness can increase the risk of infectious disease transmission by removing natural checks on vector populations. To mitigate these impacts, potential management strategies could focus on integrating measures that maintain river connectivity and protect ecosystem health.</p>"
         }
       ],
