@@ -99,9 +99,7 @@ function mechanismHtml(m) {
     <button class="mech-head" aria-expanded="false" onclick="toggleMech(this)">
       <span class="mech-head-text">
         <span class="section-item-type">${m.t}</span>
-        <strong>${escapeHtml(m.m)}</strong><br>
-        <span style="font-size:11.5px;opacity:.8">Diseases: ${escapeHtml(m.d)}</span>
-      </span>
+      <strong>${escapeHtml(m.m)}</strong>
       <span class="mech-chevron">${CHEVRON}</span>
     </button>
     <div class="mech-detail"><div class="mech-detail-inner"><div class="mech-body">
@@ -115,18 +113,8 @@ function openDocDetail(id) {
   if (!d) return;
   const fam = DATA.evidence.families.find((f) => f.family === d.family);
 
-  // co and tr are the totals recorded in the source document. The mechanisms
-  // array is a partial transcription, so say so rather than quietly showing less.
-  const listed = (d.mechanisms || []).length;
-  const total = d.co + d.tr;
-  const connections = listed < total
-    ? `Showing ${listed} of ${total} documented connections`
-    : `${total} documented connection${total !== 1 ? 's' : ''}`;
-
-  let h = `<div class="doc-id">Pathway ${d.id} · ${fam ? fam.name : ''}</div>
-    <h2>${escapeHtml(d.title)}</h2>
-    <div style="font-size:12px;color:var(--text-tertiary);margin-bottom:18px;
-      padding-bottom:14px;border-bottom:1px solid var(--border-light)">${connections}</div>`;
+   let h = `<div class="doc-id">Pathway ${d.id} · ${fam ? fam.name : ''}</div>
+    <h2>${escapeHtml(d.title)}</h2>`;
 
   if (d.intro) {
     h += `<p style="font-size:14px;line-height:1.7;margin-bottom:14px">${d.intro}</p>`;
