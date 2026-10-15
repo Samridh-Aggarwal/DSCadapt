@@ -105,7 +105,7 @@ function pxRenderFlow(root) {
     const connected = new Set(P.mechanismCategories[px.mech] || []);
     const isTr = P.mechanisms.tradeOff.includes(px.mech);
     h += `<div class="px-col animate-in" style="width:180px;padding-right:40px">
-      <div class="px-col-head">Disease categories</div>`;
+      <div class="px-col-head">Disease risk</div>`;
     for (const c of P.categories) {
       const on = connected.has(c);
       const lit = isTr ? 'lit-tr' : 'lit-co';
