@@ -127,15 +127,7 @@ function renderEval(data) {
   out.innerHTML = `<div style="font-size:13px;color:var(--text-tertiary);
       background:var(--accent-light);border-radius:10px;padding:12px 14px;margin-bottom:18px">
       ${escapeHtml(data.note || '')}</div>${cards}
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
-      <button class="btn-primary" id="doc-discuss-btn">Discuss in a session</button>${resetBtn}</div>`;
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">${resetBtn}</div>`;
 
-  const discuss = document.getElementById('doc-discuss-btn');
-  if (discuss) {
-    discuss.addEventListener('click', () => {
-      const measures = (data.shortlist || []).slice(0, 4).join(', ');
-      askAbout('Discuss infectious-disease considerations for a policy covering ' + measures);
-    });
-  }
   wireResetButton(out);
 }
