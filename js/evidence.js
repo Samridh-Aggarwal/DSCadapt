@@ -95,6 +95,16 @@ function mechanismHtml(m) {
   const detail = m.detail && m.detail.length
     ? m.detail
     : `<p class="mech-empty">${NO_DETAIL}</p>`;
+  const refs = (m.refs && m.refs.length)
+    ? `<details class="mech-refs"><summary>References (${m.refs.length})</summary>`
+      + m.refs.map((r) => {
+          const url = (r.match(/https?:\/\/\S+/) || [''])[0];
+          return url
+            ? `<a class="mech-ref" href="${url}" target="_blank" rel="noopener">${escapeHtml(r)}</a>`
+            : `<span class="mech-ref">${escapeHtml(r)}</span>`;
+        }).join('')
+      + '</details>'
+    : '';
   return `<div class="section-item ${cls} has-detail">
     <button class="mech-head" aria-expanded="false" onclick="toggleMech(this)">
         <span class="mech-head-text">
@@ -104,7 +114,7 @@ function mechanismHtml(m) {
       <span class="mech-chevron">${CHEVRON}</span>
     </button>
     <div class="mech-detail"><div class="mech-detail-inner"><div class="mech-body">
-      <div class="mech-detail-body">${detail}</div>
+      <div class="mech-detail-body">${detail}${refs}</div>
     </div></div></div>
   </div>`;
 }
