@@ -133,8 +133,19 @@ function openDocDetail(id) {
       h += `<p style="font-size:13px;font-weight:600;margin-bottom:8px">Key adaptation measures include:</p>
         <ul class="measure-list">${d.measures}</ul>`;
     }
-  } else {
+    } else {
     h += `<p style="font-size:14px;line-height:1.7;margin-bottom:18px">${escapeHtml(d.summary)}</p>`;
+  }
+
+  if (d.refs && d.refs.length) {
+    h += '<details class="mech-refs doc-refs"><summary>References (' + d.refs.length + ')</summary>'
+      + d.refs.map((r) => {
+          const url = (r.match(/https?:\/\/\S+/) || [''])[0];
+          return url
+            ? `<a class="mech-ref" href="${url}" target="_blank" rel="noopener">${escapeHtml(r)}</a>`
+            : `<span class="mech-ref">${escapeHtml(r)}</span>`;
+        }).join('')
+      + '</details>';
   }
 
   if (d.mechanisms) {
