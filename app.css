@@ -432,7 +432,7 @@ body.dark .dp-body h4{color:#aaa}
 .dp-sources a:hover{text-decoration:underline}
 body.dark .dp-sources a{color:#5cba9a}
 
-
+.doc-refs{margin-bottom:16px}
 /* Shown only if the JSON in data/ cannot be fetched. */
 .data-error{max-width:640px;margin:80px auto;padding:24px 26px;background:var(--danger-bg);border:1px solid var(--danger-border);border-radius:12px;color:var(--text)}
 .data-error h3{font-family:var(--serif);font-size:18px;font-weight:500;margin-bottom:8px}
