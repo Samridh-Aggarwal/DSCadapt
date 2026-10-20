@@ -432,7 +432,7 @@ body.dark .dp-body h4{color:#aaa}
 .dp-sources a:hover{text-decoration:underline}
 body.dark .dp-sources a{color:#5cba9a}
 
-.doc-refs{margin-bottom:16px}
+.doc-refs{margin-bottom:16px;border-top:none;padding-top:0}
 /* Shown only if the JSON in data/ cannot be fetched. */
 .data-error{max-width:640px;margin:80px auto;padding:24px 26px;background:var(--danger-bg);border:1px solid var(--danger-border);border-radius:12px;color:var(--text)}
 .data-error h3{font-family:var(--serif);font-size:18px;font-weight:500;margin-bottom:8px}
@@ -440,7 +440,9 @@ body.dark .dp-sources a{color:#5cba9a}
 .data-error code{font-family:var(--mono);font-size:12.5px;background:var(--surface-alt);padding:2px 6px;border-radius:4px;color:var(--text)}
 
 .mech-refs{margin-top:10px;border-top:1px solid var(--border-light);padding-top:9px}
-.mech-refs summary{cursor:pointer;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px;opacity:.85;list-style:none}
+.mech-refs summary{cursor:pointer;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px;opacity:.85;list-style:none;display:inline-flex;align-items:center;gap:6px}
 .mech-refs summary::-webkit-details-marker{display:none}
+.mech-refs summary::after{content:"";width:14px;height:14px;flex:none;background-color:currentColor;transition:transform .25s;-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpolyline%20points='6%209%2012%2015%2018%209'/%3E%3C/svg%3E")center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpolyline%20points='6%209%2012%2015%2018%209'/%3E%3C/svg%3E")center/contain no-repeat}
+.mech-refs[open] summary::after{transform:rotate(180deg)}
 .mech-ref{display:block;font-size:11.5px;line-height:1.5;margin-top:9px;color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:.9}
 .mech-ref:hover{opacity:1}
