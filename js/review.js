@@ -50,6 +50,11 @@ function handleFile(f) {
       .then((d) => {
         if (d.error) return fail(d.error);
         document.getElementById('doc-paste').value = d.text;
+        if (d.warning) {
+          resetDropzone('or click to browse');
+          document.getElementById('doc-result').innerHTML = noticeBox(d.warning);
+          return;
+        }
         document.getElementById('dropzone-sub').textContent =
           `extracted ${d.chars.toLocaleString()} characters · reviewing…`;
         runEvaluate(d.text);
@@ -76,8 +81,9 @@ async function runEvaluate(text) {
       body: JSON.stringify({ text, country }),
     });
     const data = await res.json();
-    if (data.error) {
-      out.innerHTML = noticeBox(data.error);
+    if (!res.ok || data.error) {
+      out.innerHTML = noticeBox(data.error || data.detail ||
+        'The review could not be completed. Try a shorter document or paste the relevant section.');
       return;
     }
     renderEval(data);
