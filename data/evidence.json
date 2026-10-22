@@ -59,7 +59,21 @@
           "m": "Safe seafood supply",
           "t": "co-benefit",
           "d": "Vibriosis, Norovirus, Hepatitis A",
-          "detail": ""
+          "detail": "<p>Water storage and reuse measures can make seafood safer by reducing the sewage and contaminated runoff reaching the coast, where filter-feeding shellfish such as oysters concentrate norovirus and hepatitis A virus. Capturing and storing rainwater reduces the stormwater entering combined sewers, whose spills in heavy rain have been linked to higher norovirus levels in oysters and to outbreaks. Conventional treatment removes norovirus only in part, so reusing treated effluent instead of discharging it can keep the virus away from shellfish waters. Schemes that only supply summer irrigation are likely to help less, since discharges continue in winter, when shellfish contamination peaks. Heavy rain also washes faecal contamination from manured farmland into rivers and the sea, and capturing runoff from this land may reduce the load. The co-benefit does not extend to Vibrio bacteria, which are native to coastal and brackish waters.</p>",
+          "refs": [
+            "Campos, C. J. A., Kershaw, S., Morgan, O. C., & Lees, D. N. (2017). Risk factors for norovirus contamination of shellfish water catchments in England and Wales. International Journal of Food Microbiology, 241, 318–324. https://doi.org/10.1016/j.ijfoodmicro.2016.10.028",
+            "Campos, C. J. A., & Lees, D. N. (2014). Environmental Transmission of Human Noroviruses in Shellfish Waters. Applied and Environmental Microbiology, 80(12), 3552–3561. https://doi.org/10.1128/AEM.04188-13",
+            "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS European Water Resilience Strategy (2025). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0280&qid=1750857768458",
+            "Doyle, A., Barataud, D., Gallay, A., Thiolet, J. M., Guyaguer, S. L., Kohli, E., & Vaillant, V. (2004). Norovirus foodborne outbreaks associated with the consumption of oysters from the Etang de Thau, France, December 2002. Eurosurveillance, 9(3), 24–26. https://doi.org/10.2807/esm.09.03.00451-en",
+            "ECDC. (2012, March 28). Assessing the potential impacts of climate change on food- and waterborne diseases in Europe. https://www.ecdc.europa.eu/en/publications-data/assessing-potential-impacts-climate-change-food-and-waterborne-diseases-europe",
+            "EFSA. (2026, May 12). Monitoring of foodborne diseases | EFSA. https://www.efsa.europa.eu/en/topics/topic/monitoring-foodborne-diseases",
+            "Hazards (BIOHAZ), E. P. on B., Koutsoumanis, K., Allende, A., Alvarez-Ordóñez, A., Bolton, D., Bover-Cid, S., Chemaly, M., De Cesare, A., Herman, L., Hilbert, F., Lindqvist, R., Nauta, M., Nonno, R., Peixe, L., Ru, G., Simmons, M., Skandamis, P., Baker-Austin, C., Hervio-Heath, D., … Suffredini, E. (2024). Public health aspects of Vibrio spp. Related to the consumption of seafood in the EU. EFSA Journal, 22(7), e8896. https://doi.org/10.2903/j.efsa.2024.8896",
+            "Quaranta, E., Fuchs, S., Liefting, H. J., Schellart, A., & Pistocchi, A. (2022). Costs and benefits of combined sewer overflow management strategies at the European scale. Journal of Environmental Management, 318, 115629. https://doi.org/10.1016/j.jenvman.2022.115629",
+            "Regulation (EU) 2020/741 of the European Parliament and of the Council of 25 May 2020 on Minimum Requirements for Water Reuse (Text with EEA Relevance), 177 OJ L (2020). http://data.europa.eu/eli/reg/2020/741/oj",
+            "Richards, G. P. (2016). Shellfish-Associated Enteric Virus Illness: Virus Localization, Disease Outbreaks and Prevention. Viruses in Foods, 185–207. https://doi.org/10.1007/978-3-319-30723-7_7",
+            "Trant. (2023, November 23). ‘Butt’ here’s a solution…. http://www.trant.co.uk/news/butt-here’s-a-solution",
+            "UK Environment Agency. (2026, March 16). Faecal contamination: Challenges for the water environment. GOV.UK. https://www.gov.uk/government/publications/faecal-contamination-challenges-for-the-water-environment/faecal-contamination-challenges-for-the-water-environment"
+          ]
         },
         {
           "m": "Habitat for disease pathogens & vectors",
