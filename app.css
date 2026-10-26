@@ -446,3 +446,6 @@ body.dark .dp-sources a{color:#5cba9a}
 .mech-refs[open] summary::after{transform:rotate(180deg)}
 .mech-ref{display:block;font-size:11.5px;line-height:1.5;margin-top:9px;color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:.9}
 .mech-ref:hover{opacity:1}
+
+.beta-banner{margin:0 auto 24px;max-width:760px;text-align:center;font-size:13px;padding:10px 16px;border-radius:8px;background:var(--danger-bg);border:1px solid var(--danger-border);color:var(--danger)}
+.beta-banner a{color:var(--danger);font-weight:600;text-decoration:underline;text-underline-offset:2px}
