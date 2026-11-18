@@ -89,11 +89,12 @@ function pxRenderFlow(root) {
       ['Co-benefits', P.mechanisms.coBenefit, 'lit-co'],
       ['Trade-offs', P.mechanisms.tradeOff, 'lit-tr'],
     ]) {
+      const shown = list.filter((name) => connected.has(name));
+      if (!shown.length) continue;
       h += `<div class="px-col-sub ${lit === 'lit-co' ? 'co' : 'tr'}">${group}</div>`;
-      for (const name of list) {
-        const on = connected.has(name);
-        const cls = on ? (px.mech === name ? lit + ' sel' : lit) : 'dim';
-        const click = on ? ` onclick="pxPickMech(${JSON.stringify(name).replace(/"/g, '&quot;')})"` : '';
+      for (const name of shown) {
+        const cls = px.mech === name ? lit + ' sel' : lit;
+        const click = ` onclick="pxPickMech(${JSON.stringify(name).replace(/"/g, '&quot;')})"`;
         h += `<button class="px-node ${cls}" data-pxid="mc_${name}"${click}>${name}</button>`;
       }
     }
@@ -106,13 +107,12 @@ function pxRenderFlow(root) {
     const isTr = P.mechanisms.tradeOff.includes(px.mech);
     h += `<div class="px-col animate-in" style="width:180px;padding-right:40px">
       <div class="px-col-head">Disease risk</div>`;
-    for (const c of P.categories) {
-      const on = connected.has(c);
+    for (const c of P.categories.filter((x) => connected.has(x))) {
       const lit = isTr ? 'lit-tr' : 'lit-co';
-      const cls = on ? (px.cat === c ? lit + ' sel' : lit) : 'dim';
-      const click = on ? ` onclick="pxPickCat('${c}')"` : '';
-      h += `<button class="px-node ${cls}" data-pxid="ca_${c}"${click}>${c}</button>`;
+      const cls = px.cat === c ? lit + ' sel' : lit;
+      h += `<button class="px-node ${cls}" data-pxid="ca_${c}" onclick="pxPickCat('${c}')">${c}</button>`;
     }
+    if (!connected.size) h += '<div class="px-col-empty">No disease pathway recorded</div>';
     h += '</div>';
   }
 
@@ -120,10 +120,9 @@ function pxRenderFlow(root) {
   if (px.cat) {
     h += `<div class="px-col animate-in" style="width:190px">
       <div class="px-col-head">Diseases</div>`;
-    for (const d of DATA.diseases) {
-      const on = d.categories.includes(px.cat);
-      const click = on ? ` onclick="showDiseaseProfile(${JSON.stringify(d.name).replace(/"/g, '&quot;')})"` : '';
-      h += `<button class="px-node ${on ? 'lit-disease' : 'dim'}" data-pxid="d_${d.name}"${click}>${d.name}</button>`;
+    for (const d of DATA.diseases.filter((x) => x.categories.includes(px.cat))) {
+      const click = ` onclick="showDiseaseProfile(${JSON.stringify(d.name).replace(/"/g, '&quot;')})"`;
+      h += `<button class="px-node lit-disease" data-pxid="d_${d.name}"${click}>${d.name}</button>`;
     }
     h += '</div>';
   }
