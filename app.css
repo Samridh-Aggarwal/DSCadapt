@@ -343,6 +343,7 @@ body.dark .detail-overlay{background:rgba(0,0,0,.65)}
 .px-node:hover{opacity:.75}
 .px-node.dim{opacity:.18;cursor:default}
 .px-node.dim:hover{opacity:.18}
+.px-col-empty{font-size:11.5px;color:var(--text-tertiary);line-height:1.5;padding:4px 2px}
 .px-node.lit-co{opacity:1;background:var(--accent-light);border-color:var(--accent);color:var(--accent-dark);border-left:3px solid var(--accent);border-radius:0 6px 6px 0;font-weight:500}
 .px-node.lit-tr{opacity:1;background:var(--web-bg);border-color:var(--web-accent);color:var(--web-accent);border-left:3px solid var(--web-accent);border-radius:0 6px 6px 0;font-weight:500}
 .px-node.lit-measure{opacity:1;font-weight:500}
