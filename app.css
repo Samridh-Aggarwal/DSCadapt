@@ -132,7 +132,8 @@ body.dark .evidence-tags span:hover{background:rgba(255,255,255,.15)}
 .chat-scroll{scrollbar-width:none;-ms-overflow-style:none}
 .chat-scroll::-webkit-scrollbar{display:none}
 .chat-area{padding:24px 0 8px}
-.session-panel{width:220px;flex-shrink:0;align-self:flex-start;position:sticky;top:50vh;transform:translateY(-50%);display:flex;flex-direction:column;margin:0 0 0 24px;max-height:calc(100vh - 150px);overflow-y:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:background .3s,border-color .3s}
+.session-panel{width:220px;flex-shrink:0;align-self:flex-start;position:sticky;top:50vh;transform:translateY(-50%);display:flex;flex-direction:column;margin:0 0 0 24px;max-height:calc(100vh - 150px);overflow-y:auto;opacity:0;visibility:hidden;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:background .3s,border-color .3s,opacity .35s ease,visibility .35s}
+.session-panel.ready{opacity:1;visibility:visible}
 .panel-context{display:flex;flex-direction:column}
 .panel-key{display:flex;flex-direction:column;gap:7px;padding:14px 16px;border-top:1px solid var(--border-light);font-size:10.5px;color:var(--text-tertiary)}
 .panel-key-head{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;opacity:.75;margin-bottom:2px}
