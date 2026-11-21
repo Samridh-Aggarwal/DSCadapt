@@ -80,10 +80,7 @@ function renderSourcePanel(sources) {
       </div></div>`;
   }
 
-  return h + `</div><div class="source-legend">
-    <span><span class="legend-dot ev"></span>Evidence base</span>
-    <span><span class="legend-dot wb"></span>Web search</span>
-    <span><span class="legend-dot ec"></span>ECDC data</span></div></div>`;
+  return h + '</div></div>';
 }
 
 // `refs` is still honoured but the backend currently writes its reference list
