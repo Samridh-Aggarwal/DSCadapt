@@ -132,7 +132,7 @@ body.dark .evidence-tags span:hover{background:rgba(255,255,255,.15)}
 .chat-scroll{scrollbar-width:none;-ms-overflow-style:none}
 .chat-scroll::-webkit-scrollbar{display:none}
 .chat-area{padding:24px 0 8px}
-.session-panel{width:220px;flex-shrink:0;align-self:flex-start;display:flex;flex-direction:column;margin:34px 0;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:background .3s,border-color .3s}
+.session-panel{width:220px;flex-shrink:0;align-self:center;display:flex;flex-direction:column;margin:0 0 0 24px;max-height:100%;overflow-y:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:background .3s,border-color .3s}
 .panel-context{display:flex;flex-direction:column}
 .panel-key{display:flex;flex-direction:column;gap:7px;padding:14px 16px;border-top:1px solid var(--border-light);font-size:10.5px;color:var(--text-tertiary)}
 .panel-key-head{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;opacity:.75;margin-bottom:2px}
@@ -151,7 +151,7 @@ body.dark .evidence-tags span:hover{background:rgba(255,255,255,.15)}
   .session-layout{flex-direction:column;gap:0}
   .session-main{min-height:0}
   #tab-scenario #scenario-conversation .chat-scroll{max-height:60vh}
-  .session-panel{width:auto;align-self:auto;flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:0;padding:12px 0;background:transparent;border:none;border-bottom:1px solid var(--border-light);border-radius:0}   .panel-key{display:none}
+  .session-panel{width:auto;align-self:auto;flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:0;max-height:none;overflow:visible;padding:12px 0;background:transparent;border:none;border-bottom:1px solid var(--border-light);border-radius:0}   .panel-key{display:none}
   .panel-context{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:transparent;border:none;border-radius:0}
   .session-info{padding:0;border-bottom:none}
   .panel-settings{display:flex;gap:0;padding:0}
