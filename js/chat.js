@@ -116,6 +116,10 @@ function renderMsg(role, content, time, meta, refs, sources, thinking) {
   return h;
 }
 
+function setSidePanelReady(ready) {
+  document.querySelector('.session-panel').classList.toggle('ready', ready);
+}
+
 function renderSidePanel() {
   const s = (S.activeSession && S.activeSession.settings) || S.settings;
   document.getElementById('panel-settings').innerHTML = [
@@ -195,6 +199,7 @@ function startSession(q) {
   };
   showConversation();
   renderSidePanel();
+  setSidePanelReady(false);
   document.getElementById('chat-area').innerHTML = '';
   save();
   fetchTitle(q, S.activeSession.id, S.activeSession.settings.language);
@@ -233,6 +238,7 @@ function restoreSession() {
   if (!S.activeSession) return;
   showConversation();
   renderSidePanel();
+  setSidePanelReady(true);
   const chat = document.getElementById('chat-area');
   chat.innerHTML = '';
   S.activeSession.messages.forEach((m) => {
@@ -379,6 +385,7 @@ async function sendMessage(q) {
     });
     save();
     renderSessionInfo();
+    setSidePanelReady(true);
     scrollChat();
   } catch (e) {
     document.getElementById(pending)?.remove();
@@ -387,6 +394,7 @@ async function sendMessage(q) {
       'please try again in 30–60 seconds.</p>' +
       `<p style="font-size:12px;color:var(--text-tertiary)">Error: ${escapeHtml(e.message)}</p>`,
       time));
+    setSidePanelReady(true);
     scrollChat();
   }
 }
