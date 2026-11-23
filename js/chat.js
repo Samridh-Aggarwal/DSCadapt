@@ -448,6 +448,7 @@ async function downloadPdf() {
     await downloadFile('/transcript', {
       history: S.activeSession.messages.map((m) => ({ role: m.role, content: m.content })),
       audience: cfg.audience, country: cfg.country, language: cfg.language,
+      length: cfg.length, session_id: S.activeSession.id,
     }, 'IDAlert_Transcript_' + new Date().toISOString().slice(0, 10) + '.pdf',
        'Transcript generation failed');
   } catch (e) {
