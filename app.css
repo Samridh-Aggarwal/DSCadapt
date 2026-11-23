@@ -23,7 +23,7 @@ body.dark{
   --disease:#A78BFA;--disease-light:#2D1B69;--disease-dark:#C4B5FD;
 }
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;font-size:14px;line-height:1.55;transition:background .3s,color .3s}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;font-size:14px;line-height:1.55;transition:background .3s,color .3s} @media screen and (min-width:1001px){body{height:100vh;height:100dvh;overflow:hidden}}
 .container{max-width:960px;margin:0 auto;padding:0 24px;width:100%}
 .container-wide{max-width:1200px;margin:0 auto;padding:0 24px;width:100%}
 
@@ -60,7 +60,7 @@ nav.main-nav{background:var(--surface);border-bottom:1px solid var(--border);pos
 
 /* MAIN */
 main{flex:1;display:flex;flex-direction:column;min-height:0}
-.tab-panel.active#tab-scenario{display:flex;flex-direction:column;overflow:visible}
+.tab-panel.active#tab-scenario{display:flex;flex-direction:column;overflow:hidden}
 #scenario-landing{flex:1;min-height:0;overflow-y:auto}
 #scenario-conversation{display:flex;flex-direction:column;flex:1;min-height:0}
 body:has(#scenario-conversation:not(.hidden)) footer.app-footer{display:none}
@@ -132,7 +132,7 @@ body.dark .evidence-tags span:hover{background:rgba(255,255,255,.15)}
 .chat-scroll{scrollbar-width:none;-ms-overflow-style:none}
 .chat-scroll::-webkit-scrollbar{display:none}
 .chat-area{padding:24px 0 8px}
-.session-panel{width:220px;flex-shrink:0;align-self:flex-start;position:sticky;top:50vh;transform:translateY(-50%);display:flex;flex-direction:column;margin:0 0 0 24px;max-height:calc(100vh - 150px);overflow-y:auto;opacity:0;visibility:hidden;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:background .3s,border-color .3s,opacity .35s ease,visibility .35s}
+.session-panel{width:220px;flex-shrink:0;align-self:center;display:flex;flex-direction:column;margin:0 0 0 24px;max-height:100%;overflow-y:auto;opacity:0;visibility:hidden;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:background .3s,border-color .3s,opacity .35s ease,visibility .35s}
 .session-panel.ready{opacity:1;visibility:visible}
 .panel-context{display:flex;flex-direction:column}
 .panel-key{display:flex;flex-direction:column;gap:7px;padding:14px 16px;border-top:1px solid var(--border-light);font-size:10.5px;color:var(--text-tertiary)}
