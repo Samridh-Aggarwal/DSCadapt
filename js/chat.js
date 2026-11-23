@@ -62,7 +62,7 @@ function renderSourcePanel(sources) {
   const ev = count('evidence'), web = count('web'), ecdc = count('ecdc');
 
   let h = `<div class="source-panel" onclick="this.classList.toggle('expanded')">
-    <div class="source-header"><h4>Sources (${ev} passage${ev !== 1 ? 's' : ''}` +
+    <div class="source-header"><h4>Where information was gathered from (${ev} passage${ev !== 1 ? 's' : ''}` +
     `${web ? ' + ' + web + ' web' : ''}${ecdc ? ' + ECDC data' : ''})</h4>
     <div class="toggle"></div></div><div class="source-list">`;
 
